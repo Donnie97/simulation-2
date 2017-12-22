@@ -12,7 +12,17 @@ export default class Frontpage extends Component {
 
     render(){ //36F
         return(
-            <div className="test">Hello</div> //54C
+            <div className="center">
+                hello
+            <div className="mainBox">
+            <div>
+                <img className='logo' src={houserlogo} alt="logo"/>
+            </div>
+            </div>
+            
+            
+            
+            </div> //54C
         )
     }
 }
