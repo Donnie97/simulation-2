@@ -13,9 +13,27 @@ flex-direction: column;
 /* 27F */
 }
 .logo {
-    margin-bottom: 200px; 
+    margin-bottom: 120px; 
     /* 24C */
+    animation: Houser-logo infinite .1s linear;
+    
 }
+.loginBox {
+    width: 525px;
+    height: 25px;
+    font-size: 20px;
+    /* 23D */
+    margin-top: 2px;
+    margin-bottom: 20px;
+    border: 1px solid #519872;
+    /* 24D */
+}
+
+@keyframes Houser-logo {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+    /* 28E & 28C */
+  }
 
 .center {
 height: 100vh;
